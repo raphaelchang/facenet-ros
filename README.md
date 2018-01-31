@@ -1,2 +1,2 @@
 # facenet-ros
-Face recognition in ROS using FaceNet and MTCNN implementation in Tensorflow from https://github.com/davidsandberg/facenet.
+Face recognition for ROS using FaceNet and MTCNN Tensorflow implementation from https://github.com/davidsandberg/facenet.
