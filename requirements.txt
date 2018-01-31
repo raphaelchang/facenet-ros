@@ -1,1 +1,3 @@
 tensorflow-gpu
+scipy
+opencv-python

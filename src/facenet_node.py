@@ -118,7 +118,7 @@ class FaceNetNode(object):
                                 if dist < best:
                                     best = dist
                                     bestdet = imagefiles[db]
-                            if best < 0.9:
+                            if best < 0.95:
                                 print 'best: ' + bestdet
                                 cv2.putText(flipped_img, bestdet.split('_')[0], textlocs[det], cv2.FONT_HERSHEY_SIMPLEX, 2,(0,255,255),2,cv2.LINE_AA)
                             else:
